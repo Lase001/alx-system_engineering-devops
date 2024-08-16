@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a | sort | awk '{if(NR==1) print "./, ../,"; else print $0 (substr($0, length($0)) == "/" ? "" : ",")}' | tr '\n' ' ' | sed 's/ ,/,/g'

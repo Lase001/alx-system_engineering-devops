@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | awk '{print $0 "/"}' | sed -e 's/\/\//\//g' | awk '{if ($0 == "./" || $0 == "../") print $0; else print $0}' | sort -t/ -k1,1 -k2,2n | awk 'BEGIN {ORS=", "} {print}' | sed 's/, $/\n/'
+ls -map

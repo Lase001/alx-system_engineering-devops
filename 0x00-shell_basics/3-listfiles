@@ -1,3 +1,2 @@
 #!/bin/bash
-# Display the contents of the current directory in a long format
 ls -l

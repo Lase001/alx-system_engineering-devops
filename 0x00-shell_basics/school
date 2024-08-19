@@ -1,2 +1,5 @@
-0	string	SCHOOL	School data files
+0	string		SCHOOL		School data files
 !:mime	application/school data
+
+0       string      >               ASCII text
+!:mime  text/plain

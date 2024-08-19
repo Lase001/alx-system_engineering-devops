@@ -1,0 +1,5 @@
+0	string	SCHOOL	School data
+!:mime application/School data
+
+0	string	SCHOOL	school file
+!:mime	text/School file
